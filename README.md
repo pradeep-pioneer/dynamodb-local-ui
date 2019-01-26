@@ -2,7 +2,9 @@
 ## dynamodb-local-ui Docker Image
 ---
 
-![docker status](https://img.shields.io/badge/docker-passing-brightgreen.svg)
+[![Docker Build](https://img.shields.io/docker/automated/pradeep4docker/dynamodb-local-ui.svg?maxAge=200?style=plastic)](https://github.com/pradeep-pioneer/dynamodb-local-ui)
+[![Docker Stars](https://img.shields.io/docker/stars/pradeep4docker/dynamodb-local-ui.svg?style=plastic)](https://hub.docker.com/r/pradeep4docker/dynamodb-local-ui)
+[![Docker Pulls](https://img.shields.io/docker/pulls/pradeep4docker/dynamodb-local-ui.svg?style=plastic)](https://hub.docker.com/r/pradeep4docker/dynamodb-local-ui)
 
 Docker image for running the dynamo db locally for development and testing and using the **dynamodb-admin** npm tool for Admin UI.
 
