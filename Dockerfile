@@ -5,7 +5,7 @@ RUN wget -O /tmp/dynamodb_local https://s3.ap-south-1.amazonaws.com/dynamodb-loc
     tar xfz /tmp/dynamodb_local && rm -f /tmp/dynamodb_local
 
 #nodejs and supervisor
-RUN curl -sL https://deb.nodesource.com/setup_6.x | bash - && \
+RUN curl -sL https://deb.nodesource.com/setup_10.x | bash - && \
     apt-get install -y nodejs supervisor && \
     apt-get clean && \
     npm install dynamodb-admin -g #dynamodb-admin
