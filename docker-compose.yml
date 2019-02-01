@@ -1,0 +1,9 @@
+version: 3
+services:
+  dynamodb-local:
+    image: pradeep4docker/dynamodb-local-ui
+    ports:
+      - "8000:8000"
+      - "8001:8001"
+    volumes:
+      - ./data:/var/dynamodb_data
